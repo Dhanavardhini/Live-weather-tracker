@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#a{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+    z-index: -1;
+    
+}
+#b1, #c2, #b2 {
+    color: black;
+}
+#start {
+    position: relative;
+    z-index: 1;
+    color: white; 
+}
+
+.a1{
+    margin-top: 170px; 
+}
+
+.a2{
+    height: 40px;
+    border: none;
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.413);
+    color: #ffc107;
+}
+.a3{
+    border-radius: 30px;
+    background-color: #007bff;
+    color: white;
+}
+
+.card {
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.516);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.283);
+}
+
+.card h1, .card h4 {
+    color: #007bff;
+}
+
+.card div.c1, .card div.c11, .card div.c3, .card div.c4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #343a40;
+}
